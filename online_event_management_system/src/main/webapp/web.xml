@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-inst..." xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web..." id="WebApp_ID" version="3.0">
+
+<servlet>
+	<servlet-name>add-event</servlet-name>
+	<servlet-class>servlet.add-event</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>add-event</servlet-name>
+<url-pattern>/add-event</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+	<servlet-name>showEvent</servlet-name>
+	<servlet-class>servlet.showEvent</servlet-class>
+
+</servlet>
+<servlet-mapping>
+<servlet-name>showEvent</servlet-name>
+<url-pattern>/showEvent</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+
+
+</web-app>

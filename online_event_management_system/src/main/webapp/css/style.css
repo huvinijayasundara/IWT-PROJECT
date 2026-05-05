@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.dashboard {
+    display: flex;
+    height: 100vh;
+    gap: 20px;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    width: 300px;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-panel h2 {
+    font-size: 24px;
+}
+
+.admin-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 15px 0;
+    border: 3px solid #fff;
+}
+
+.admin-info {
+    width: 100%;
+    text-align: left;
+}
+
+.admin-info p {
+    margin: 8px 0;
+}
+
+.edit-btn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background: #27ae60;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.edit-btn:hover {
+    background: #1e8449;
+    transform: scale(1.03);
+}
+
+/* MIDDLE PANEL */
+.middle-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 20px;
+}
+
+.actions,
+.notifications {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.actions:hover,
+.notifications:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+.actions ul,
+.notifications ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.actions li,
+.notifications li {
+    margin: 10px 0;
+}
+
+.actions a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.actions a:hover {
+    background: #ecf0f1;
+}
+
+/* RIGHT SIDE CALENDAR */
+.calendar-right {
+    width: 320px;
+    padding: 30px 20px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.calendar-right:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+#calendar {
+    max-width: 100%;
+    font-size: 12px;
+}
