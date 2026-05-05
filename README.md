@@ -86,13 +86,15 @@ It ensures efficiency, transparency, and better coordination between all stakeho
 
 ---
 
-## 🧠 My Contribution
+## 🧠 My Contribution 
 
-- Designed and developed core system modules  
-- Implemented **role-based event management system**  
-- Worked on MVC architecture and validation logic  
-- Assisted in UI design and responsiveness  
-- Supported database integration and testing  
+- Designed and implemented the **Admin Module – Event Planner Management system**
+- Developed functionality for **adding, updating, and removing event planners**
+- Implemented validation rules for event planner data (ID, name, role)
+- Handled real-time updates of event planner records in the system
+- Ensured safe deletion with dependency checks (e.g., assigned events)
+- Contributed to system testing and error handling improvements
+- Participated in preparing and refining system documentation (use case, sequence, and communication diagrams)
 
 ---
 
